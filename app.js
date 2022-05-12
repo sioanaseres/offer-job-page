@@ -12,6 +12,10 @@ closeSidebar.addEventListener("click", function () {
   sidebar.classList.remove("show-sidebar");
 });
 
+sidebar.addEventListener("click", function () {
+  sidebar.classList.remove("show-sidebar");
+});
+
 //show button
 
 const joinBtn = document.querySelector(".join");
