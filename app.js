@@ -49,7 +49,7 @@ alert;
 setTimeout(() => {
   alert("No longer available");
   if (alert) {
-    window.location.href = "job_status.php";
+    window.location.href = "job_status.html";
   }
 }, 300000);
 
